@@ -1,0 +1,11 @@
+nav{
+    background-color: darkgray;
+}
+button{
+    display: inline-block;
+    background: none;
+    border: none;
+}
+button:hover{
+    background-color: wheat;
+}

@@ -1,0 +1,15 @@
+<div id="byCity">
+<input type="search" #search placeholder="Choose the city here..."><button (click)="searchCity(search.value)" >search</button>
+<p *ngIf="error" style="color: red;">!בחר עיר</p>
+<div *ngFor="let city of cityDetails" id="card">
+    
+   <button id="addB"  (click)="saveCity()">Add to city list +</button>
+   <h1 id="p1" >{{city.name}}</h1>
+    <h2 id="p2" >{{city.country}}</h2>
+   <div id="c"><img src="https://openweathermap.org/img/wn/{{city.icon}}@2x.png" id="p4" style="display: inline-block;">
+    <h3 id="p3" style="display: inline-block;" >{{city.temp}} c</h3>
+</div>
+</div>
+</div>
+
+ 

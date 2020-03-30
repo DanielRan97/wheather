@@ -1,0 +1,13 @@
+<h3 style="color:lightgray;margin-top: 100px;text-align:center;" *ngIf="!favCity[0]">Choose cities in "by city" page...</h3>
+
+<div id="Carea" >
+<div *ngFor="let city of favCity" style="display: inline-block; margin: 5px;" >
+    <div id="card">
+        <div style="position: relative;"><button id="deleteB" (click)="deleteUser(city.id)">X</button></div>
+    <h1 id="p1" >{{city.name}}</h1>
+    <h2 id="p2" >{{city.country}}</h2>
+   <div id="c"><img src="https://openweathermap.org/img/wn/{{city.icon}}@2x.png" id="p4" style="display: inline-block;">
+    <h3 id="p3" style="display: inline-block;" >{{city.temp}} c</h3>
+</div>
+</div>
+</div>

@@ -1,0 +1,32 @@
+#byCity{
+    text-align: center;
+    margin-top: 60px;
+}
+
+#card{
+    min-height: 212px;
+    width: 305px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    color: black;
+    border: 1px solid black;
+}
+
+#c{
+    margin-right: 100px;
+}
+
+#addB{
+    margin-left: 172px;
+    background-color: green;
+    border: 1px solid green;
+}
+
+#addB:hover{
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    color: white;
+}
